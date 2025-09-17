@@ -1,0 +1,12 @@
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\bin\Debug\net9.0\ReVeste.Core.deps.json
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\bin\Debug\net9.0\ReVeste.Core.dll
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\bin\Debug\net9.0\ReVeste.Core.pdb
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.AssemblyInfoInputs.cache
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.AssemblyInfo.cs
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.csproj.CoreCompileInputs.cache
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.sourcelink.json
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.dll
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\refint\ReVeste.Core.dll
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ReVeste.Core.pdb
+C:\Users\fabrizio\OneDrive - DECISION\Desktop\projeto-reveste-csharp\ReVeste.Core\obj\Debug\net9.0\ref\ReVeste.Core.dll

@@ -25,6 +25,72 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj": {
+                "projectPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj"
+              },
+              "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Data\\ReVeste.Data.csproj": {
+                "projectPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Data\\ReVeste.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj",
+        "projectName": "ReVeste.Core",
+        "projectPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj",
+        "packagesPath": "C:\\Users\\fabrizio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabrizio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -43,6 +109,81 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Data\\ReVeste.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Data\\ReVeste.Data.csproj",
+        "projectName": "ReVeste.Data",
+        "projectPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Data\\ReVeste.Data.csproj",
+        "packagesPath": "C:\\Users\\fabrizio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabrizio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj": {
+                "projectPath": "C:\\Users\\fabrizio\\OneDrive - DECISION\\Desktop\\projeto-reveste-csharp\\ReVeste.Core\\ReVeste.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
