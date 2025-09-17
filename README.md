@@ -135,8 +135,8 @@ Este projeto está licenciado sob a Licença MIT.
 
 ## ✍️ Autores
 
-André Sóler – RM98827
-Fabrizio Maia - RM551869
-João Pedro Marques – RM98307
-Victor Asfur - RM551684
-Vitor Shimizu – RM550390
+- André Sóler – RM98827
+- Fabrizio Maia - RM551869
+- João Pedro Marques – RM98307
+- Victor Asfur - RM551684
+- Vitor Shimizu – RM550390
