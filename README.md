@@ -72,7 +72,7 @@ graph TD
     DAL --> FS[(Sistema de Arquivos <br> Relatórios .json/.txt)]
     BLL --> Core(Core/Domain <br> ReVeste.Core)
     DAL --> Core
-
+```
 ### 🔹 Fluxo de Execução (Exemplo: Registrar uma Aposta)
 ReVeste.ConsoleApp: Recebe a entrada do usuário (descrição e valor da aposta).
 
@@ -98,32 +98,33 @@ IDE: Visual Studio Code
 ---
 
 ## ▶️ Como Executar o Projeto
-###🔹 Pré-requisitos
+### 🔹 Pré-requisitos
 .NET 8 SDK
 
 Visual Studio Code
 
 Extensão C# Dev Kit para VS Code
 
-###🔹 Passos para Instalação
+### 🔹 Passos para Instalação
 
 Clone o repositório:
 ```bash
 git clone [URL_DO_SEU_REPOSITORIO_GIT]
 cd nome-da-pasta-do-projeto
-
+```
 Restaure as dependências:
 ```bash
 dotnet restore
-
+```
 Crie e aplique as migrações do banco de dados:
 (Este comando cria o arquivo reveste.db na raiz do projeto)
 ```bash
 dotnet ef database update --project ReVeste.Data --startup-project ReVeste.ConsoleApp
-
+```
 Execute a aplicação:
 ```bash
 dotnet run --project ReVeste.ConsoleApp
+```
 
 ---
 
