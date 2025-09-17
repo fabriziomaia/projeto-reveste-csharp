@@ -5,7 +5,7 @@
 ![Plataforma: .NET 8](https://img.shields.io/badge/.NET-8-5C2D91?style=for-the-badge&logo=.net&logoColor=white)  
 ![Licença: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-> [cite_start]Uma ferramenta transformadora que capacita, apoia e motiva usuários a redirecionarem suas "apostas" para um futuro financeiro mais seguro e próspero[cite: 183].
+> [cite_start]Uma ferramenta transformadora que capacita, apoia e motiva usuários a redirecionarem suas "apostas" para um futuro financeiro mais seguro e próspero.
 
 ---
 
@@ -26,8 +26,8 @@
 ## 🎯 Visão Geral do Projeto
 
 O **ReVeste** é uma plataforma inovadora que atua na interseção entre saúde financeira, prevenção ao vício em apostas e educação financeira prática.  
-[cite_start]Diante do crescimento exponencial de plataformas de apostas online no Brasil[cite: 9], o projeto surge como uma solução para um problema social e financeiro significativo.  
-[cite_start]O objetivo principal é capacitar indivíduos a transformar hábitos de apostas em oportunidades de investimento [cite: 35][cite_start], promovendo a saúde financeira e prevenindo o vício[cite: 36].
+Diante do crescimento exponencial de plataformas de apostas online no Brasil, o projeto surge como uma solução para um problema social e financeiro significativo.  
+O objetivo principal é capacitar indivíduos a transformar hábitos de apostas em oportunidades de investimento, promovendo a saúde financeira e prevenindo o vício.
 
 Esta implementação representa o **MVP (Minimum Viable Product)** do núcleo do sistema, desenvolvido como uma aplicação de console em C#.  
 A solução simula as funcionalidades centrais da plataforma ReVeste, como o registro de lançamentos, o cálculo do Score de Inteligência Financeira e a geração de relatórios.
@@ -51,8 +51,8 @@ Status: Excelente! Você está no caminho certo para a independência financeira
 ## ✨ Funcionalidades Principais
 
 - **Registro de Lançamentos:** Permite ao usuário registrar seus gastos com apostas e seus aportes em investimentos.  
-- **Dashboard de Conscientização:** Exibe um painel com o total gasto em apostas versus o total investido, mostrando também o custo de oportunidade[cite: 38].  
-- **Score de Inteligência Financeira:** Sistema de pontuação baseado na proporção entre investimentos e apostas, gamificando a jornada financeira[cite: 51, 55].  
+- **Dashboard de Conscientização:** Exibe um painel com o total gasto em apostas versus o total investido, mostrando também o custo de oportunidade.  
+- **Score de Inteligência Financeira:** Sistema de pontuação baseado na proporção entre investimentos e apostas, gamificando a jornada financeira.  
 - **Simulação de Custo de Oportunidade:** Estimativa de quanto o dinheiro gasto em apostas poderia ter rendido.  
 - **Exportação de Relatórios:** Geração de relatórios nos formatos `.json` e `.txt`.  
 
@@ -62,7 +62,7 @@ Status: Excelente! Você está no caminho certo para a independência financeira
 
 ### 🔹 Diagrama de Camadas
 
-O projeto segue uma arquitetura em **4 camadas**, inspirada em princípios como **TOGAF** e **ArchiMate**, promovendo baixo acoplamento e escalabilidade[cite: 132].
+O projeto segue uma arquitetura em **4 camadas**, inspirada em princípios como **TOGAF** e **ArchiMate**, promovendo baixo acoplamento e escalabilidade.
 
 ```mermaid
 graph TD
@@ -73,14 +73,15 @@ graph TD
     BLL --> Core(Core/Domain <br> ReVeste.Core)
     DAL --> Core
 ```
+
 ### 🔹 Fluxo de Execução (Exemplo: Registrar uma Aposta)
 ReVeste.ConsoleApp: Recebe a entrada do usuário (descrição e valor da aposta).
 
-ReVeste.Business: O FinanceiroService valida os dados e cria um objeto Lancamento.
+ReVeste.Business: O `FinanceiroService` valida os dados e cria um objeto `Lancamento`.
 
-ReVeste.Data: O LancamentoRepository utiliza o ReVesteDbContext do Entity Framework Core.
+ReVeste.Data: O `LancamentoRepository` utiliza o `ReVesteDbContext` do Entity Framework Core.
 
-EF Core: Traduz o objeto em um comando SQL INSERT e o executa no banco reveste.db.
+EF Core: Traduz o objeto em um comando SQL `INSERT` e o executa no banco `reveste.db`.
 
 ---
 
