@@ -128,23 +128,15 @@ dotnet run --project ReVeste.ConsoleApp
 
 ---
 
-## 🤝 Como Contribuir
-Faça um Fork do projeto.
-
-Crie uma branch com sua feature: git checkout -b minha-feature.
-
-Commit suas mudanças: git commit -m 'Minha nova feature'.
-
-Faça o Push: git push origin minha-feature.
-
-Abra um Pull Request.
-
----
-
 ## 📜 Licença
 Este projeto está licenciado sob a Licença MIT.
 
 ---
 
-## ✍️ Autor
-Fabrizio
+## ✍️ Autores
+
+André Sóler – RM98827
+Fabrizio Maia - RM551869
+João Pedro Marques – RM98307
+Victor Asfur - RM551684
+Vitor Shimizu – RM550390
