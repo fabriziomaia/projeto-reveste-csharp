@@ -66,11 +66,11 @@ O projeto segue uma arquitetura em **4 camadas**, inspirada em princípios como 
 
 ```mermaid
 graph TD
-    UI(Presentation Layer <br> ReVeste.ConsoleApp) --> BLL(Business Logic Layer <br> ReVeste.Business)
-    BLL --> DAL(Data Access Layer <br> ReVeste.Data)
-    DAL --> DB[(Banco de Dados <br> SQLite / PostgreSQL)]
+    UI(Camada de Apresentação <br> ReVeste.ConsoleApp) --> BLL(Camada de Lógica de Negócios <br> ReVeste.Business)
+    BLL --> DAL(Camada de Acesso a Dados <br> ReVeste.Data)
+    DAL --> DB[(Banco de Dados <br> SQLite)]
     DAL --> FS[(Sistema de Arquivos <br> Relatórios .json/.txt)]
-    BLL --> Core(Core/Domain <br> ReVeste.Core)
+    BLL --> Core(Núcleo / Domínio <br> ReVeste.Core)
     DAL --> Core
 ```
 
