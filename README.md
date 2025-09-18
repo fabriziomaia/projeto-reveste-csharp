@@ -10,7 +10,7 @@
 
 ## 📖 Tabela de Conteúdos
 
-1. [Visão Geral do Projeto](#-visão-geral-do-projeto)  
+1. [🎯 Visão Geral do Projeto](#-visão-geral-do-projeto)  
 2. [📸 Demonstração Visual](#-demonstração-visual)  
 3. [✨ Funcionalidades Principais](#-funcionalidades-principais)  
 4. [🏗️ Arquitetura e Fluxo de Execução](#️-arquitetura-e-fluxo-de-execução)  
@@ -22,12 +22,9 @@
 
 ## 🎯 Visão Geral do Projeto
 
-O **ReVeste** é uma plataforma inovadora que atua na interseção entre saúde financeira, prevenção ao vício em apostas e educação financeira prática.  
-Diante do crescimento exponencial de plataformas de apostas online no Brasil, o projeto surge como uma solução para um problema social e financeiro significativo.  
-O objetivo principal é capacitar indivíduos a transformar hábitos de apostas em oportunidades de investimento, promovendo a saúde financeira e prevenindo o vício.
+O **ReVeste** é uma plataforma inovadora que atua na interseção entre saúde financeira, prevenção ao vício em apostas e educação financeira prática. Diante do crescimento exponencial de plataformas de apostas online no Brasil, o projeto surge como uma solução para um problema social e financeiro significativo. O objetivo principal é capacitar indivíduos a transformar hábitos de apostas em oportunidades de investimento, promovendo a saúde financeira e prevenindo o vício.
 
-Esta implementação representa o **MVP (Minimum Viable Product)** do núcleo do sistema, desenvolvido como uma aplicação de console em C#.  
-A solução simula as funcionalidades centrais da plataforma ReVeste, como o registro de lançamentos, o cálculo do Score de Inteligência Financeira e a geração de relatórios.
+Esta implementação representa o **MVP (Minimum Viable Product)** do núcleo do sistema, desenvolvido como uma aplicação de console em C#. A solução simula as funcionalidades centrais da plataforma ReVeste, como o registro de lançamentos, o cálculo do Score de Inteligência Financeira e a geração de relatórios.
 
 ---
 
