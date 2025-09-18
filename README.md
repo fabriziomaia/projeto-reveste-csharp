@@ -31,7 +31,7 @@ Esta implementação representa o **MVP (Minimum Viable Product)** do núcleo do
 ## 📸 Demonstração Visual
 
 Abaixo, uma simulação da tela principal do Dashboard no console:
-
+```
 --- Seu Dashboard ReVeste --- <br>
 Total gasto em apostas: R$ 500,00 <br>
 Total investido: R$ 800,00 <br>
@@ -39,7 +39,7 @@ Custo de Oportunidade: Seu dinheiro em apostas poderia ter rendido aproximadamen
 
 Score de Inteligência Financeira: 78 <br>
 Status: Excelente! Você está no caminho certo para a independência financeira.
-
+```
 ---
 
 ## ✨ Funcionalidades Principais
