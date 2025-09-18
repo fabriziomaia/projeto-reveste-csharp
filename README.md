@@ -3,9 +3,8 @@
 ![Status: MVP Concluído](https://img.shields.io/badge/status-MVP%20Concluído-brightgreen?style=for-the-badge)  
 ![Linguagem: C#](https://img.shields.io/badge/csharp-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)  
 ![Plataforma: .NET 8](https://img.shields.io/badge/.NET-8-5C2D91?style=for-the-badge&logo=.net&logoColor=white)  
-![Licença: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-> [cite_start]Uma ferramenta transformadora que capacita, apoia e motiva usuários a redirecionarem suas "apostas" para um futuro financeiro mais seguro e próspero.
+> Uma ferramenta transformadora que capacita, apoia e motiva usuários a redirecionarem suas "apostas" para um futuro financeiro mais seguro e próspero.
 
 ---
 
@@ -66,9 +65,9 @@ O projeto segue uma arquitetura em **4 camadas**, inspirada em princípios como 
 
 ```mermaid
 graph TD
-    UI(Camada de Apresentação <br> ReVeste.ConsoleApp) --> BLL(Camada de Lógica de Negócios <br> ReVeste.Business)
+    UI(Camada de Apresentação <br> ReVeste.ConsoleApp) --> BLL(Camada de Regras de Negócio <br> ReVeste.Business)
     BLL --> DAL(Camada de Acesso a Dados <br> ReVeste.Data)
-    DAL --> DB[(Banco de Dados <br> SQLite)]
+    DAL --> DB[(Banco de Dados <br> SQLite / PostgreSQL)]
     DAL --> FS[(Sistema de Arquivos <br> Relatórios .json/.txt)]
     BLL --> Core(Núcleo / Domínio <br> ReVeste.Core)
     DAL --> Core
@@ -126,11 +125,6 @@ Execute a aplicação:
 ```bash
 dotnet run --project ReVeste.ConsoleApp
 ```
-
----
-
-## 📜 Licença
-Este projeto está licenciado sob a Licença MIT.
 
 ---
 
