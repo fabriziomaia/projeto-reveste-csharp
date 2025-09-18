@@ -16,9 +16,7 @@
 4. [🏗️ Arquitetura e Fluxo de Execução](#️-arquitetura-e-fluxo-de-execução)  
 5. [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)  
 6. [▶️ Como Executar o Projeto](#️-como-executar-o-projeto)  
-7. [🤝 Como Contribuir](#-como-contribuir)  
-8. [📜 Licença](#-licença)  
-9. [✍️ Autor](#️-autor)  
+7. [✍️ Autores](#️-autores)  
 
 ---
 
