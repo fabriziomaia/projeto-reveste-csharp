@@ -8,7 +8,6 @@ public class Program
 {
     private static readonly UsuarioRepository _usuarioRepository = new UsuarioRepository();
     private static readonly FinanceiroService _financeiroService = new FinanceiroService();
-    // CORREÇÃO: Adicionado '?' para indicar que o campo pode ser nulo antes da inicialização.
     private static Usuario? _usuarioLogado;
 
     public static void Main(string[] args)
@@ -67,17 +66,15 @@ public class Program
 
     private static void RegistrarLancamento(TipoLancamento tipo)
     {
-        if (_usuarioLogado == null) return; // Checagem de segurança
+        if (_usuarioLogado == null) return;
 
         try
         {
             Console.WriteLine($"\n--- Registrar {tipo} ---");
             Console.Write("Descrição: ");
-            // CORREÇÃO: Console.ReadLine() pode retornar nulo
             string? descricao = Console.ReadLine();
 
             Console.Write("Valor (R$): ");
-            // CORREÇÃO: Adicionado '?? "0"' para evitar erro se a entrada for nula
             decimal valor = decimal.Parse(Console.ReadLine() ?? "0");
 
             _financeiroService.RegistrarLancamento(_usuarioLogado.Id, valor, tipo, descricao);
@@ -95,7 +92,7 @@ public class Program
 
     private static void MostrarDashboard()
     {
-        if (_usuarioLogado == null) return; // Checagem de segurança
+        if (_usuarioLogado == null) return;
 
         Console.Clear();
         Console.WriteLine("--- Seu Dashboard ReVeste ---");
@@ -119,7 +116,7 @@ public class Program
 
     private static void ExportarRelatorio()
     {
-        if (_usuarioLogado == null) return; // Checagem de segurança
+        if (_usuarioLogado == null) return;
 
         try
         {

@@ -12,7 +12,6 @@ namespace ReVeste.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // CORREÇÃO: Adicionado '!' para suprimir os avisos de possível nulo.
             string solutionFolderPath = Directory.GetParent(AppContext.BaseDirectory)!.Parent!.Parent!.Parent!.FullName;
             string dbPath = Path.Combine(solutionFolderPath, "reveste.db");
             

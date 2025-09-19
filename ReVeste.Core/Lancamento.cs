@@ -9,7 +9,6 @@ namespace ReVeste.Core
         public string? Descricao { get; set; }
 
         public int UsuarioId { get; set; }
-        // CORREÇÃO: Adicionado '?' para indicar que a propriedade de navegação pode ser nula.
         public Usuario? Usuario { get; set; }
     }
 }

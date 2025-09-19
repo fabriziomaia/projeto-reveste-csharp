@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReVeste.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb7d743eadad65500b4ed2535ce9e107ad0eb5ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60e0cc07d099b799c8714206b455b78a992f5a15")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReVeste.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReVeste.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

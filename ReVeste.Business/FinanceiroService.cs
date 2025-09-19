@@ -11,7 +11,6 @@ namespace ReVeste.Business
         private readonly LancamentoRepository _lancamentoRepository = new LancamentoRepository();
         private readonly RelatorioService _relatorioService = new RelatorioService();
 
-        // CORREÇÃO: A assinatura do método agora aceita uma descrição anulável (string?).
         public void RegistrarLancamento(int usuarioId, decimal valor, TipoLancamento tipo, string? descricao)
         {
             if (valor <= 0)
@@ -54,7 +53,7 @@ namespace ReVeste.Business
 
         public decimal SimularCustoDeOportunidade(decimal totalApostas)
         {
-            const decimal taxaDeRendimentoMensal = 0.008m; // 0.8% a.m.
+            const decimal taxaDeRendimentoMensal = 0.008m;
             return totalApostas * taxaDeRendimentoMensal;
         }
 
